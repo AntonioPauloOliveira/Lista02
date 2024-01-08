@@ -1,0 +1,15 @@
+package lista02;
+import java.util.Scanner;
+public class Q05 {
+	public static void main(String[] args) {
+		Scanner scr = new Scanner (System.in);
+		int salbruto,prest;
+		salbruto=scr.nextInt();
+		prest=scr.nextInt();
+		if (prest<=salbruto*0.30) {
+			System.out.println("O emprestimo pode ser concedido");
+		}else{
+			System.out.println("O emprestimo não pode ser concedido");
+		}
+	}
+}
