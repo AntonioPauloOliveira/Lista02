@@ -1,0 +1,19 @@
+package lista02;
+import java.util.Scanner;
+public class Q06 {
+	public static void main(String[] args) {
+		Scanner scr = new Scanner (System.in);
+		int sexo;
+		double h;
+		sexo= scr.nextInt();
+		h=scr.nextDouble();
+		switch (sexo) {  
+		case 1: System.out.println(62.1*h-44.7);
+		break;
+		case 2: System.out.println(72.7*h-58);
+		break;
+		default: System.out.println("Parâmetros incorretos");
+		break;
+		}
+	}
+}
