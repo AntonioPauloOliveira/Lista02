@@ -1,0 +1,14 @@
+package lista02;
+import java.util.Scanner;
+public class Q04 {
+	public static void main(String[] args) {
+		Scanner scr = new Scanner (System.in);
+		int qtd;
+		qtd=scr.nextInt();
+		if (qtd<12) {
+			System.out.println("O valor total da compra: " +qtd*0.30);
+		}else{
+			System.out.println("O valor total da compra: " +qtd*0.25);
+		}
+	}
+}
