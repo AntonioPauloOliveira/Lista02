@@ -1,0 +1,18 @@
+package lista02;
+import java.util.Scanner;
+public class Q03 {
+	public static void main(String[] args) {
+		Scanner scr = new Scanner (System.in);
+			int idade;
+			idade = scr.nextInt();
+			if ((idade>=18)&&(idade<65)) {
+				System.out.println("Voto obrigatório");
+			}else {
+				if (idade<16) {
+				System.out.println("Sem permissão pra votar");	
+				}else {
+					System.out.println("Voto facultativo");
+				}
+			}
+	}
+}
