@@ -1,0 +1,16 @@
+package lista02;
+import java.util.Scanner;
+public class Q01 {
+	public static void main(String[] args) {
+		Scanner scr=new Scanner (System.in);
+		int ano,anoatual;
+		ano=scr.nextInt();
+		anoatual=2024-ano;
+		if (anoatual>16) {
+			System.out.println("Pode votar");
+		}else {
+			System.out.println("Não pode votar");
+		}
+	}
+
+}
