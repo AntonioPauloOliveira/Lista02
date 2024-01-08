@@ -1,0 +1,23 @@
+package lista02;
+import java.util.Scanner;
+public class Q08 {
+	public static void main(String[] args) {
+		Scanner scr = new Scanner (System.in);
+		int a,b,op;
+		a=scr.nextInt();
+		b=scr.nextInt();
+		op=scr.nextInt();
+		switch (op) {
+		case 1: System.out.println("Adição: "+(a+b));
+		break;
+		case 2: System.out.println("Subtração: "+(a-b));
+		break;
+		case 3: System.out.println("Divisão: "+b/a);
+		break;
+		case 4: System.out.println("Multiplicação: "+a*b);
+		break;
+		default: System.out.println("Fora dos parâmetros");
+		break;
+		}
+	}
+}
